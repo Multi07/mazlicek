@@ -45,11 +45,12 @@ public class Main {
                     pets.remove(rem - 1);
                     break;
                 case "3":
+                    String input2 = "";
                     while (!input.equals("0")) {
                         System.out.println("1: jmena\n2: prumerna vaha a vek\n3: najit podle jmena\n4: filtr podle druhu\n0: konec");
-                        input = sc.nextLine();
+                        input2 = sc.nextLine();
 
-                        switch (input) {
+                        switch (input2) {
                             case "1":
                                 System.out.println("Jmena mazličků: ");
                                 for (int i = 0; i < pets.size(); i++) {
