@@ -45,12 +45,10 @@ public class Mazlicek {
 
     @Override
     public String toString() {
-        return "Mazlicek{" +
-                "name='" + name + '\'' +
+        return "name='" + name + '\'' +
                 ", druh='" + druh + '\'' +
                 ", age=" + age +
-                ", weight=" + weight +
-                '}';
+                ", weight=" + weight;
     }
 }
 
