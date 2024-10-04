@@ -87,6 +87,12 @@ public class Main {
                                     }
                                 }
                                 break;
+                            case "0":
+                                System.out.println("Program se ukočuje");
+                                break;
+                            default:
+                                System.out.println("špatné zadání");
+                                break;
                         }
                     }
 
