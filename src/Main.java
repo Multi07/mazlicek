@@ -46,7 +46,7 @@ public class Main {
                     break;
                 case "3":
                     String input2 = "";
-                    while (!input.equals("0")) {
+                    while (!input2.equals("0")) {
                         System.out.println("1: jmena\n2: prumerna vaha a vek\n3: najit podle jmena\n4: filtr podle druhu\n0: konec");
                         input2 = sc.nextLine();
 
